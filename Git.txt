@@ -1,0 +1,38 @@
+1. Download Git from:
+	https://git-scm.com/download/win
+
+2. Just click next while installation
+
+3. Open cmd and run command to check for installation
+	git --version
+
+4. Open GitHub and create an account.
+
+5. Open cmd to configure Git and give the credential as in GitHub (Username and Email ID will be same as in GitHub) 
+	git config  --global user.name "your_username"
+	git config  --global user.emal "your_email"
+
+6. Run command to check 
+	git config --list
+
+7. Download GitHub Desktop from:
+	https://desktop.github.com/
+	
+
+
+
+
+1. Open Command prompt
+2. cd  (to change Directory)
+	cd .  (parent)
+	cd .. (grandparent) 
+
+3. dir (displays a list of the files and folders contained in it)
+
+4. git status
+
+5. git init (converts any folder to git repos)
+
+7. git clone URL NEW_FOLDER_NAME/     (for cloning the git repo to our local machine)
+
+8. git diff	(to check what is being changed in the repo)
