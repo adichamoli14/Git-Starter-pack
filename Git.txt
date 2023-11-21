@@ -36,3 +36,15 @@
 7. git clone URL NEW_FOLDER_NAME/     (for cloning the git repo to our local machine)
 
 8. git diff	(to check what is being changed in the repo)
+
+
+
+create a new repository on the command line
+
+echo "# Git-Starter-pack" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin https://github.com/adichamoli14/Git-Starter-pack.git
+  git push -u origin main
