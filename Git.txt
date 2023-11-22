@@ -10,7 +10,7 @@
 
 5. Open cmd to configure Git and give the credential as in GitHub (Username and Email ID will be same as in GitHub) 
 	git config  --global user.name "your_username"
-	git config  --global user.emal "your_email"
+	git config  --global user.email "your_email"
 
 6. Run command to check 
 	git config --list
@@ -22,7 +22,8 @@
 
 
 
-1. Open Command prompt
+1. Open Command prompt
+
 2. cd  (to change Directory)
 	cd .  (parent)
 	cd .. (grandparent) 
