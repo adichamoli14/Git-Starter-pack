@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1. Download Git from:
 	https://git-scm.com/download/win
 
@@ -71,3 +72,75 @@ echo "# Message_in_readme_file" >> README.md
 5. git branch -M main: Renames the default branch to 'main'. This step is important because some Git repositories have transitioned from using 'master' as the default branch to 'main'.
 6. git remote add origin https://github.com/adichamoli14/Git-Starter-pack.git: Sets the remote repository named 'origin' to the GitHub repository URL.
 7. git push -u origin main: Pushes the committed changes to the 'main' branch of the remote repository on GitHub and sets it as the upstream branch.
+=======
+1. Download Git from:
+	https://git-scm.com/download/win
+
+2. Just click next while installation
+
+3. Open cmd and run command to check for installation
+	git --version
+
+4. Open GitHub and create an account.
+
+5. Open cmd to configure Git and give the credential as in GitHub (Username and Email ID will be same as in GitHub) 
+	git config  --global user.name "your_username"
+	git config  --global user.email "your_email"
+
+6. Run command to check 
+	git config --list
+
+7. Download GitHub Desktop from:
+	https://desktop.github.com/
+	
+
+
+
+
+1. Open Command prompt
+
+2. cd  (to change Directory)
+	cd .  (parent)
+	cd .. (grandparent) 
+
+3. dir (displays a list of the files and folders contained in it)
+
+4. git status
+
+5. git init (converts any folder to git repos)
+
+7. git clone URL NEW_FOLDER_NAME/     (for cloning the git repo to our local machine)
+
+8. git diff	(to check what is being changed in the repo)
+
+
+
+Create a new repository on the command line
+
+echo "# Message_in_readme_file" >> README.md
+  git init
+  git add README.md
+  git commit  -m "first commit"
+  git branch  -M main
+  git remote add origin https_wala_link_repo ka
+  git push  -u origin main
+
+
+Ab agr koi change kiya kisi bhi file mei toh fir-:
+	git add file_name
+	git commit  -m  "msg_to_be_printed"
+	git push  -u origin main	
+
+
+
+
+Let's break down what each command does:
+
+1. echo "# Git-Starter-pack" >> README.md: Creates a README.md file with the content "# Git-Starter-pack".
+2. git init: Initializes a new Git repository in your current directory.
+3. git add README.md: Adds the README.md file to the staging area.
+4. git commit -m "first commit": Commits the changes with the message "first commit".
+5. git branch -M main: Renames the default branch to 'main'. This step is important because some Git repositories have transitioned from using 'master' as the default branch to 'main'.
+6. git remote add origin https://github.com/adichamoli14/Git-Starter-pack.git: Sets the remote repository named 'origin' to the GitHub repository URL.
+7. git push -u origin main: Pushes the committed changes to the 'main' branch of the remote repository on GitHub and sets it as the upstream branch.
+>>>>>>> bac472dd823e970b37feaad565d0766a8592767d
