@@ -22,7 +22,8 @@
 
 
 
-1. Open Command prompt
+1. Open Command prompt
+
 2. cd  (to change Directory)
 	cd .  (parent)
 	cd .. (grandparent) 
@@ -33,13 +34,13 @@
 
 5. git init (converts any folder to git repos)
 
-7. git clone URL NEW_FOLDER_NAME/     (for cloning the git repo to our local machine)
+6. git clone URL NEW_FOLDER_NAME/     (for cloning the git repo to our local machine)
 
-8. git diff	(to check what is being changed in the repo)
+7. git diff	(to check what is being changed in the repo)
 
 
 
-Create a new repository on the command line
+-> Create a new repository on the command line
 
 echo "# Message_in_readme_file" >> README.md
   git init
@@ -50,15 +51,18 @@ echo "# Message_in_readme_file" >> README.md
   git push  -u origin main
 
 
-Ab agr koi change kiya kisi bhi file mei toh fir-:
+-> Ab agr koi change kiya kisi bhi file mei toh fir-:
 	git add file_name
 	git commit  -m  "msg_to_be_printed"
 	git push  -u origin main	
 
 
+-> Agr koi file Delete krni hai
+	git rm file1.txt
+	git commit -m "remove file1.txt"
 
 
-Let's break down what each command does:
+-> Let's break down what each command does:
 
 1. echo "# Git-Starter-pack" >> README.md: Creates a README.md file with the content "# Git-Starter-pack".
 2. git init: Initializes a new Git repository in your current directory.
